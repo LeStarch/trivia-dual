@@ -1,7 +1,7 @@
 <!-- Question Display Template -->
 <script type="text/template" id="question-display">
 	<h2><%= question.get("category")%>-<%= question.get("title") %></h2>
-	Value: <%= questions.get("points") %>
+	Value: <%= question.get("points") %>
 	<p><%= question.get("question")%></p>
 	<% var answers = question.get("answers");
 	   for (var i = 0; i < answers.length; i++) { %>
@@ -13,14 +13,16 @@
 <script type="text/template" id="questions-list">
 	<h2>Select a Question</h2>
 	<% for (var cat in categories) { %>
-	       <div class="category-<%= cat %>" id="category-<%= cat %>-header">
+	       <div class="category category-<%= cat %>" id="category-<%= cat %>-header">
 		       <em><%= cat %></em>
-		   </div>
-		<% for (var i = 0; i < category[cat].length; i++) {
+
+		<% for (var i = 0; i < categories[cat].length; i++) {
 		       var model = categories[cat][i]; %>
-		       <div class="category-<%= cat %>" id="<%= model.get("id") %>">
-			       <em><%= model.get("title"); %></em>
+		       <div class="question category-<%= cat %>" id="<%= model.get("id") %>">
+			       <em><%= model.get("title") %></em>
+			       <span><%= model.get("points") %></span>
 		       </div>
-		<% }; 
-	  }; %>
+		<% }; %>
+		</div>
+	<% }; %>
 </script>

@@ -1,0 +1,8 @@
+div.question {
+    background-color:red;
+}
+
+div.category {
+   background-color:blue;
+   display: table-cell;
+}

@@ -18,7 +18,7 @@ define(["jquery",
 			 */
 			function organize(model) {
 				//Needed model values
-				var collect = model.get("collection");
+				var collect = model.get("category");
 				var points = model.get("points");
 				//Add in collections
 				if (!(collect in collections)) {
@@ -26,6 +26,7 @@ define(["jquery",
 				}
 				collections[collect].push(model);
 			};
+			return organize;
 		};
 		/**
 		 * Inits the view
@@ -35,11 +36,11 @@ define(["jquery",
 		 * Renders this view
 		 */
 		function render(collection) {
-			var collections = {}
-			collection.each(each(collections));
+			var categories = {}
+			collection.each(each(categories));
 			
-			var tmp = _.template($("script#question-display").html());
-            this.$el.html(tmp({"collections":collections}));
+			var tmp = _.template($("script#questions-list").html());
+            this.$el.html(tmp({"categories":categories}));
 		};
 		
         /**

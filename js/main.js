@@ -11,25 +11,31 @@ require(["lib/domReady!",
          "lib/i18n!js/nls/ui",
          "js/model/Question",
          "js/view/QuestionView",
+         "js/model/Questions",
+         "js/view/ListView",
+         "js/config/Configuration",
          "lib/text!templates.html"],
-	function(doc,$,itl,Question,QuestionView,html)
+	function(doc,$,itl,Question,QuestionView,Questions,ListView,Configuration,html)
 	{
         $("body").append(html);
-        var question = new Question(
-        		{
-        			"id":"question-1",
-            		"title":"What is you name?",
-            		"category":"Yolo",
-            		"question":"你的名字是甚麼?",
-            		"answers":["Bob","Frank","George","Don"],
-            		"answer":3,
-            		"points":10
-        		});
+        var coll = new Questions([]);
+        for (var i = 0; i < Configuration.jsons.length;i++) {
+        	coll.load(Configuration.jsons[i]);
+        }
+        /*
         var qview = new QuestionView(
         		{
         			"el":$("div#slide"),
         			"name":"question-view"
         		});
-        qview.render(question);
+        */
+        
+        var qview = new ListView(
+        		{
+        			"el":$("div#slide"),
+        			"name":"label-view"
+        		});
+        
+        qview.render(coll);
 	}
 );

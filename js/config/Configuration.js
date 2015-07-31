@@ -7,6 +7,8 @@ define([],
         /**
          * Configuration object
          */
-        return {};
+        return {
+        	jsons:["js/questions/general-2015-07.json","js/questions/test.json"]
+        };
     }
 );
