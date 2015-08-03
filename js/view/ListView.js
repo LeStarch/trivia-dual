@@ -36,6 +36,7 @@ define(["jquery",
 		 * Renders this view
 		 */
 		function render(collection) {
+			this.collection = collection;
 			var categories = {}
 			collection.each(each(categories));
 			
@@ -48,7 +49,8 @@ define(["jquery",
          */
         return Backbone.View.extend({
             "init":init,
-            "render":render
+            "render":render,
+            "events": {}
         });
     }
 );

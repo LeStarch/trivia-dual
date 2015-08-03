@@ -1,8 +1,27 @@
+div.item {
+    border: solid black 1px;
+    border-radius: 0.4em;
+    padding: 0.4em;
+    margin: 0.2em;
+
+}
+div.header {
+    background-color: #333333;
+}
+
 div.question {
-    background-color:red;
+    background-color: #3366ff;
+}
+div.question.incorrect {
+    background-color: #ff3366;
+}
+div.question.correct {
+    background-color: #33ff66;
 }
 
 div.category {
-   background-color:blue;
    display: table-cell;
+   border: solid black 1px;
+   border-radius: 0.4em;
+   background-color: #886633;
 }

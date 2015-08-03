@@ -5,7 +5,7 @@
 	<p><%= question.get("question")%></p>
 	<% var answers = question.get("answers");
 	   for (var i = 0; i < answers.length; i++) { %>
-	       <input id="answer-<%= i %>" type="radio" value="<%= i %>"><%= answers[i] %></input>
+	       <input id="answer-<%= i %>" class="answers" type="radio" value="<%= i %>"><%= answers[i] %></input>
 	<% }; %>
 	<button id="answer">Submit Answer</button>
 </script>
@@ -13,16 +13,30 @@
 <script type="text/template" id="questions-list">
 	<h2>Select a Question</h2>
 	<% for (var cat in categories) { %>
-	       <div class="category category-<%= cat %>" id="category-<%= cat %>-header">
-		       <em><%= cat %></em>
-
+	       <div class="category" id="category-<%= cat %>">
+	           <div class="item header" id="category-header-<%= cat %>"> 
+		           <em><%= cat %></em>
+			   </div>
 		<% for (var i = 0; i < categories[cat].length; i++) {
-		       var model = categories[cat][i]; %>
-		       <div class="question category-<%= cat %>" id="<%= model.get("id") %>">
-			       <em><%= model.get("title") %></em>
+		       var model = categories[cat][i]; 
+		       var extra = typeof(model.get("answered")) == "undefined"?"":
+		                       (model.get("answered")?"correct":"incorrect");%>
+		       <div class="item question <%= extra %> category-<%= cat %>" id="<%= model.get("id") %>">
+			       <em><%= model.get("title") %></em> - 
 			       <span><%= model.get("points") %></span>
 		       </div>
 		<% }; %>
 		</div>
 	<% }; %>
+</script>
+<!-- Add players -->
+<script type="text/template" id="add-players">
+	<h2>Add Players</h2>
+	<ul>
+	<% players.each(function(play) { %>
+				    <li><%= play.get("name") %></li>
+    <%         }); %>
+        <li><input id="new-player"></input><button id="add-new-player"></button></li>
+    </ul>
+    
 </script>

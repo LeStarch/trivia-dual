@@ -13,29 +13,29 @@ require(["lib/domReady!",
          "js/view/QuestionView",
          "js/model/Questions",
          "js/view/ListView",
+         "js/control/Control",
          "js/config/Configuration",
          "lib/text!templates.html"],
-	function(doc,$,itl,Question,QuestionView,Questions,ListView,Configuration,html)
+	function(doc,$,itl,Question,QuestionView,Questions,ListView,Control,Configuration,html)
 	{
         $("body").append(html);
         var coll = new Questions([]);
         for (var i = 0; i < Configuration.jsons.length;i++) {
         	coll.load(Configuration.jsons[i]);
         }
-        /*
         var qview = new QuestionView(
         		{
         			"el":$("div#slide"),
         			"name":"question-view"
         		});
-        */
         
-        var qview = new ListView(
+        
+        var lview = new ListView(
         		{
         			"el":$("div#slide"),
         			"name":"label-view"
         		});
-        
-        qview.render(coll);
+        var control = new Control(lview,qview,coll);
+        lview.render(coll);
 	}
 );
