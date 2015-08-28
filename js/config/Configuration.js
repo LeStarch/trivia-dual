@@ -8,7 +8,7 @@ define([],
          * Configuration object
          */
         return {
-        	jsons:["js/questions/general-2015-07.json","js/questions/test.json"]
+        	jsons:["js/questions/UmaEnglish1.json","js/questions/UmaEnglish2.json","js/questions/UmaEnglish3.json"]
         };
     }
 );

@@ -1,0 +1,83 @@
+[
+    {
+        "category":"天國",
+        "id":"DayWhere1",
+        "title":"Viernes",
+        "question":"'星期四'是什麼?",
+        "answers":["Monday","Vietnam","Pleased","Thursday","Sunday"],
+        "answer":3,
+        "points":10
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere2",
+        "title":"Alemania",
+        "question":"'德國'是什麼?",
+        "answers":["Germany","Italy","Monday","Michael","Pleased"],
+        "answer":0,
+        "points":15
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere3",
+        "title":"Bob Hope",
+        "question":"'越南‘是什麼?",
+        "answers":["Texas","Hawaii","Malaysia","Korea","Vietnam"],
+        "answer":4,
+        "points":20
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere4",
+        "title":"Carmine San Diego",
+        "question":"'你從在哪裏？'是什麼？",
+        "answers":["My name is ____","What day is today?","Where are you from?","What is your name?","I am from ____"],
+        "answer":2,
+        "points":25
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere5",
+        "title":"English I",
+        "question":"What does 'What day is today?' mean?",
+        "answers":["你好我得名字Michael","我從在美國","你從在哪裏？","今天是什麼？","你的名字是什麼？"],
+        "answer":3,
+        "points":30
+    },
+        {
+        "category":"天國",
+        "id":"DayWhere6",
+        "title":"English II",
+        "question":"What does 'I am from Canada' mean?'",
+        "answers":["你從在哪裏？","我從在加拿大","你好我的名字是Canada","我不喜歡蘋果","今天是什麼？"],
+        "answer":1,
+        "points":35
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere7",
+        "title":"Again, Again",
+        "question":"如果我說'What day is today?'你可以說什麼?",
+        "answers":["Today is Rightday","My name is Bob","Hello, Dennis, it is nice to meet you","I am from Russia","Today is Friday"],
+        "answer":4,
+        "points":40
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere8",
+        "title":"Geolocated",
+        "question":"如果我說'Where are you from?'你可以說什麼？",
+        "answers":["Hello Michael, nice to meet you","Today is Friday","I am from Babylon","I don't like you Michael","Where are you from?"],
+        "answer":2,
+        "points":45
+    },
+    {
+        "category":"天國",
+        "id":"DayWhere9",
+        "title":"Conversation",
+        "question":"如果我說'Hello, my name is Michael and I am from America. Who are you and where are your from?'你可以說什麼？",
+        "answers":["My name is Kyle","Hello, I am pleased to meet you Michael","I am Kyle from Italy","It is nice to meet you. I am from Canada","I don't like you Jessica"],
+        "answer":2,
+        "points":50
+    }
+]

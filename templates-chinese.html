@@ -1,18 +1,20 @@
 <!-- Introduction template -->
 <script type="text/template" id="intro">
-	<h1>Trivia Dual</h1>
-	<p> Please add some players and then start answering questions</p>
+	<h2>我有一個問題！</h2>
+	<p>鍵入你們的名字</p>
 </script>
 <!-- Question Display Template -->
 <script type="text/template" id="question-display">
 	<h2><%= question.get("category")%>-<%= question.get("title") %></h2>
-	Value: <%= question.get("points") %>
+	值: <%= question.get("points") %>
 	<p><%= question.get("question")%></p>
+	<ul>
 	<% var answers = question.get("answers");
 	   for (var i = 0; i < answers.length; i++) { %>
-	       <input id="answer-<%= i %>" class="answers" type="radio" value="<%= i %>"><%= answers[i] %></input>
+	       <li><input id="answer-<%= i %>" name="ans" class="answers" type="radio" value="<%= i %>"><%= answers[i] %></input><li>
 	<% }; %>
-	<button id="answer">Submit Answer</button>
+	</ul>
+	<button id="answer">回答</button>
 </script>
 <!-- Questions List Template -->
 <script type="text/template" id="questions-list">
@@ -35,7 +37,7 @@
 </script>
 <!-- Show players -->
 <script type="text/template" id="show-players">
-	<h2>Players:</h2>
+	<h2>人:</h2>
 	<ul>
 	<% players.each(function(play) { 
 					var clazz = players.isCurrent(play)?"current-player":""; %>
@@ -47,19 +49,31 @@
 <!-- Add players -->
 <script type="text/template" id="add-player">
 	<ul>
-        <li><input id="new-player"></input><button id="add">Add</button></li>
+        <li><input id="new-player"></input><button id="add">加人</button></li>
     </ul>
     
+</script>
+<!-- Right -->
+<script type="text/template" id="right">
+	<h2>對對對啊！</h2>
+	<img src="imgs/right.png"></img>
+	<p> 是<em>'<%= question.get("answers")[question.get("answer")] %>'</em>你加<em><%= question.get("points") %></em>!</p>
+</script>
+<!-- Wrong -->
+<script type="text/template" id="wrong">
+	<h2>不是</h2>
+	<img src="imgs/wrong.png"></img>
+	<p> 不是<em>'<%= question.get("answers")[guess] %>'</em>是<em>'<%= question.get("answers")[question.get("answer")]  %>'</em>!</p>
 </script>
 <!-- Winner -->
 <script type="text/template" id="winner">
 	<h2>We have a winner</h2>
 	<img src="imgs/winner.png"></img>
-	<p> Player: <%= player %> wins with a score of <%= score %>!</p>
+	<p> 人: <%= player %>贏，有<%= score %>!</p>
 </script>
 <!-- Winner -->
 <script type="text/template" id="winners">
 	<h2>We have winners</h2>
 	<img src="imgs/winners.png"></img>
-	<p> Players: <%= players %> win each with a score of <%= score %>!</p>
+	<p> 人: <%= players %>贏，有<%= score %>!</p>
 </script>

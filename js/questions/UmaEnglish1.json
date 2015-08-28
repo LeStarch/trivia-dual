@@ -1,0 +1,83 @@
+[
+    {
+        "category":"你好嗎",
+        "id":"Intro1",
+        "title":"Hola",
+        "question":"'你好'是什麼?",
+        "answers":["Goodbye","My name is ____","Hello","Pleased to meet you","I am from ____"],
+        "answer":2,
+        "points":10
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro2",
+        "title":"Nombre",
+        "question":"'名字'是什麼?",
+        "answers":["Hello","Name","Goodbye","I am from ____","Pleased"],
+        "answer":1,
+        "points":15
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro3",
+        "title":"Conocer",
+        "question":"'認識‘是什麼?",
+        "answers":["Goodbye","My name is ____","Hello","Meet","Pleased"],
+        "answer":3,
+        "points":20
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro4",
+        "title":"Enchante",
+        "question":"'我很高興認識你'是什麼？",
+        "answers":["My name is ____","Hello, what is your name?","What day is today?","I am from ____","I am pleased to meet you."],
+        "answer":4,
+        "points":25
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro5",
+        "title":"Backwards I",
+        "question":"What does 'Hello, my name is Michael' mean?",
+        "answers":["你好我得名字Michael","我很高興認識你，Michael","你好我的朋友","我不喜歡Michael","我叫Michael"],
+        "answer":0,
+        "points":30
+    },
+        {
+        "category":"你好嗎",
+        "id":"Intro6",
+        "title":"Backwards II",
+        "question":"What does 'I am pleased to meet you' mean?'",
+        "answers":["你好","我很高興認識你。","你好。你叫什麼？","你好我叫Michael","我不喜歡蘋果"],
+        "answer":1,
+        "points":35
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro7",
+        "title":"Basic Greeting",
+        "question":"如果我說'Hello, my name is Michael.'你要說什麼?",
+        "answers":["I am from _____","My name is ____","Hello, Dennis, it is nice to meet you","I like to eat apples","Hello, Michael, I am pleased to meet you"],
+        "answer":4,
+        "points":40
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro8",
+        "title":"Advanced Hello World",
+        "question":"如果我說'Hello, my name is Michael. What is your name?'你要說什麼？",
+        "answers":["Hello Michael, nice to meet you","I am pleased to meet you","I am from _____","I don't like you Michael","My name is ____"],
+        "answer":4,
+        "points":45
+    },
+    {
+        "category":"你好嗎",
+        "id":"Intro9",
+        "title":"Alternates",
+        "question":"你可以說'I am pleased to meet you'或可以說____",
+        "answers":["My name is ____","Hello, I like to meet you","What is your name?","It is nice to meet you.","I am from ____, and you?"],
+        "answer":3,
+        "points":50
+    }
+]

@@ -28,13 +28,25 @@ define(["jquery",
 	    		    		},
 	    			});
 		}
+		/**
+		 * Are all the questions answered
+		 */
+		function finished() {
+			var answered = true;
+			this.forEach(function(model) {
+				var tmp = typeof(model.get("answered")) != "undefined";
+				answered = answered && tmp;
+			});
+			return answered;
+		}
         /**
          * Model of a question
          */
         return Backbone.Collection.extend({
         		"url":"",
             	"model":Question,
-            	"load":load
+            	"load":load,
+            	"finished":finished
             });
     }
 );

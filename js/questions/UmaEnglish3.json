@@ -1,0 +1,83 @@
+[
+    {
+        "category":"做飯",
+        "id":"FoodNFun1",
+        "title":"Fire Feind",
+        "question":"'火龍果'是什麼?",
+        "answers":["Longren","Blueberry","Strawberry","Dragon Fruit","Tacos"],
+        "answer":3,
+        "points":10
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun2",
+        "title":"Taiwanese Sports",
+        "question":"'遊泳'是什麼?",
+        "answers":["Basketball","Soccer","Apples","Rugby","Swimming"],
+        "answer":4,
+        "points":15
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun3",
+        "title":"Travel for 20",
+        "question":"'法國和美國‘是什麼?",
+        "answers":["America and Germany","France and America","England and Sweeden","Italy and America","Texas"],
+        "answer":1,
+        "points":20
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun4",
+        "title":"Nom nom nom",
+        "question":"'你喜歡吃什麼？'是什麼？",
+        "answers":["I like to cook","Hello, what is your name?","What do you like to do?","I like to Swim","What do you like to eat?"],
+        "answer":4,
+        "points":25
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun5",
+        "title":"ssen Sie",
+        "question":"What does 'What do you like to eat?' mean?",
+        "answers":["你喜歡說什麼？","你要去中國嗎？","你喜歡吃什麼？","我不喜歡Michael","我愛遊泳"],
+        "answer":2,
+        "points":30
+    },
+        {
+        "category":"做飯",
+        "id":"FoodNFun6",
+        "title":"The world and all its people",
+        "question":"What does 'I want to go to Korea' mean?'",
+        "answers":["我喜歡去韓國","我喜歡吃三明治","你喜歡去日本嗎？","我愛遊泳","我不喜歡蘋果"],
+        "answer":0,
+        "points":35
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun7",
+        "title":"So full....",
+        "question":"如果我說'What do you like to eat?'你可以說什麼?",
+        "answers":["I like to play Basketball","I am from Norway","Do you like to eat Hamburgers?","My name is Dennis","I like to eat apples"],
+        "answer":4,
+        "points":40
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun8",
+        "title":"Far far away",
+        "question":"如果我說'Where would you like to go?'你可以說什麼？",
+        "answers":["I like to swim","I am pleased to meet you","I would like to go to France","I like to eat France","Where would you go?"],
+        "answer":2,
+        "points":45
+    },
+    {
+        "category":"做飯",
+        "id":"FoodNFun9",
+        "title":"Nobody likes it",
+        "question":"如果我說'Hello, my name is Michael. I am from France, and I like to eat anchovies. Have you been to France?'你可以說什麼？",
+        "answers":["I do not like to eat anchovies","Hello, I like to meet you Michael","Where are you from?","Do you want to go to France?","No I have not been to France"],
+        "answer":4,
+        "points":50
+    }
+]
