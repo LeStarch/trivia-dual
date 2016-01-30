@@ -42,11 +42,11 @@ define(["jquery",
         				right = true;
         				model.set("answered",true);
         				_self.players.addScore(model.get("points"));
-        				_self.players.next();
         				_self.aview.render(_self.players);
         			} else {
         				model.set("answered",false);
         			}
+    				_self.players.next();
         			rview.render(model,+ans,right);
         			
         		}
