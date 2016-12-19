@@ -1,0 +1,47 @@
+[
+    {
+        "category":"There be Lions!",
+        "id":"Daniel1",
+        "title":"Big Shiny Teeth",
+        "question":"What Animal did Daniel face?",
+        "answers":["A duck","Dogs","Birds","Whales","Lions"],
+        "answer":4,
+        "points":10
+    },
+    {
+        "category":"There be Lions!",
+        "id":"Daniel2",
+        "title":"Into the Den",
+        "question":"Why was Daniel sent into the Lion's Den?",
+        "answers":["He stole bread","He fought his parents","He would not worship the king","He didn't pay attention in Sunday School"],
+        "answer":2,
+        "points":15
+    },
+    {
+        "category":"There be Lions!",
+        "id":"Daniel3",
+        "title":"Salvation",
+        "question":"How was Daniel saved?",
+        "answers":["Angles protected him","The King freed him","He ran away and Hid","Jesus"],
+        "answer":0,
+        "points":20
+    },
+    {
+        "category":"There be Lions!",
+        "id":"Daniel4",
+        "title":"Extensions 1",
+        "question":"Did Daniel trust God to protect him?",
+        "answers":["Yes","No"],
+        "answer":0,
+        "points":25
+    },
+    {
+        "category":"There be Lions!",
+        "id":"Daniel5",
+        "title":"Extensions 2",
+        "question":"Should we Trust God or fear lions?",
+        "answers":["We should not trust God","We should punch Lions in the face","We should trust God"],
+        "answer":2,
+        "points":30
+    }
+]

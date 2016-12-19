@@ -1,0 +1,47 @@
+[
+    {
+        "category":"Lessons By Sean",
+        "id":"Sean1",
+        "title":"Gold",
+        "question":"Should we steal gold?",
+        "answers":["Yes, we will be rich","Maybe, stealing is ok...but I don't want gold","No, stealing is wrong","Yes, only if we give it to Michael"],
+        "answer":2,
+        "points":10
+    },
+    {
+        "category":"Lessons By Sean",
+        "id":"Sean2",
+        "title":"Into the Den",
+        "question":"If you see your friend cheating on homework, what should you do?",
+        "answers":["Punch him in the face, cheating is wrong","Tell the teacher, cheating is wrong","Give him fake answers, it will be funny when he fails","Tell him all your answers so he does not need to work hard"],
+        "answer":1,
+        "points":15
+    },
+    {
+        "category":"Lessons By Sean",
+        "id":"Sean3",
+        "title":"Good Parents",
+        "question":"If your parents ask you to take eggs from the store by don't give you money, what should you do?",
+        "answers":["Hide the eggs under your coat and leave the store","Grab the eggs and run","Tell your parents that they should steal the eggs","Ask your parents for money, or pay for the eggs with your money"],
+        "answer":3,
+        "points":20
+    },
+    {
+        "category":"Lessons By Sean",
+        "id":"Sean4",
+        "title":"Extensions 1",
+        "question":"Is there always an easy answer to ethical questions?",
+        "answers":["Yes","No"],
+        "answer":1,
+        "points":25
+    },
+    {
+        "category":"Lessons By Sean",
+        "id":"Sean5",
+        "title":"Extensions 2",
+        "question":"Is it right to steal bread to feed your starving family?",
+        "answers":["No, stealing is wrong","Yes, I must protect my family","I am not sure, this is a hard question. Thankfully, Jesus forgives us."],
+        "answer":2,
+        "points":30
+    }
+]

@@ -17,7 +17,7 @@ define(["jquery",
 		function render(question) {
 			this.curr = question;
 			var tmp = _.template($("script#question-display").html());
-            this.$el.html(tmp({"question":question}));
+			this.$el.html(tmp({"question":question}));
 		};
 		/**
 		 * Returns current question

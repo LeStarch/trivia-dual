@@ -1,0 +1,47 @@
+[
+    {
+        "category":"Teacher Michael Teaches Typing",
+        "id":"Michael1",
+        "title":"Trains, Planes, and Plantains",
+        "question":"How did we make the best paper airplane?",
+        "answers":["Knowledge, we knew what was best","Luck, we were just lucky","Practice, we kept trying until we succeeded"],
+        "answer":2,
+        "points":10
+    },
+    {
+        "category":"Teacher Michael Teaches Typing",
+        "id":"Michael2",
+        "title":"Tall Buildings",
+        "question":"How did we build the strongest buildings?",
+        "answers":["We built it on crumpled paper","We built them on clay","We built them on the strong floor"],
+        "answer":2,
+        "points":15
+    },
+    {
+        "category":"Teacher Michael Teaches Typing",
+        "id":"Michael3",
+        "title":"Darts of Fury",
+        "question":"How many Nerf shots did we need to always score 100 points?",
+        "answers":["1, Josh is a crack-shot","More than 100","2, we did ok"],
+        "answer":1,
+        "points":20
+    },
+    {
+        "category":"Teacher Michael Teaches Typing",
+        "id":"Michael4",
+        "title":"Extensions 1",
+        "question":"On what should we build our spiritiual foundation?",
+        "answers":["Jesus, our Rock","Comic book superheros","Ash-Cetchem"],
+        "answer":0,
+        "points":25
+    },
+    {
+        "category":"Teacher Michael Teaches Typing",
+        "id":"Michael5",
+        "title":"Extensions 2",
+        "question":"How many times should we forgive our friends?",
+        "answers":["1 time then never again","7 times, but only 7","As many times as they need us to"],
+        "answer":2,
+        "points":30
+    }
+]

@@ -8,10 +8,12 @@
 	<h2><%= question.get("category")%>-<%= question.get("title") %></h2>
 	Value: <%= question.get("points") %>
 	<p><%= question.get("question")%></p>
+	<ul>
 	<% var answers = question.get("answers");
 	   for (var i = 0; i < answers.length; i++) { %>
-	       <input id="answer-<%= i %>" class="answers" type="radio" value="<%= i %>"><%= answers[i] %></input>
+	       <li><input id="answer-<%= i %>" class="answers" type="radio" value="<%= i %>"><%= answers[i] %></input></li>
 	<% }; %>
+	</ul>
 	<button id="answer">Submit Answer</button>
 </script>
 <!-- Questions List Template -->
@@ -38,8 +40,8 @@
 	<h2>Players:</h2>
 	<ul>
 	<% players.each(function(play) { 
-					var clazz = players.isCurrent(play)?"current-player":""; %>
-				    <li class="<%= clazz %>"><span class="name"><%= play.get("name") %></span><span class="score"><%= play.get("score") %></score></li>
+		var clazz = players.isCurrent(play)?"current-player":""; %>
+		<li class="<%= clazz %>"><span class="name"><%= play.get("name") %></span><span class="score"><%= play.get("score") %></span></li>
     <%         }); %>
     </ul>
     
@@ -50,6 +52,18 @@
         <li><input id="new-player"></input><button id="add">Add</button></li>
     </ul>
     
+</script>
+<!-- Right -->
+<script type="text/template" id="right">
+        <h2>You're Right!</h2>
+        <img src="imgs/right.png"></img>
+        <p> The right answer is: <em>'<%= question.get("answers")[question.get("answer")] %>'</em>. You earned <em><%= question.get("points") %></em> points!</p>
+</script>
+<!-- Wrong -->
+<script type="text/template" id="wrong">
+        <h2>You're Wrong</h2>
+        <img src="imgs/wrong.png"></img>
+        <p> The correct answer was not: <em>'<%= question.get("answers")[guess] %>'</em>, but rather: <em>'<%= question.get("answers")[question.get("answer")]  %>'</em>!</p>
 </script>
 <!-- Winner -->
 <script type="text/template" id="winner">

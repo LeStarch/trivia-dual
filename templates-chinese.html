@@ -40,8 +40,8 @@
 	<h2>人:</h2>
 	<ul>
 	<% players.each(function(play) { 
-					var clazz = players.isCurrent(play)?"current-player":""; %>
-				    <li class="<%= clazz %>"><span class="name"><%= play.get("name") %></span><span class="score"><%= play.get("score") %></score></li>
+		var clazz = players.isCurrent(play)?"current-player":""; %>
+		<li class="<%= clazz %>"><span class="name"><%= play.get("name") %></span><span class="score"><%= play.get("score") %></span></li>
     <%         }); %>
     </ul>
     
