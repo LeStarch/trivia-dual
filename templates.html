@@ -11,7 +11,7 @@
 	<ul>
 	<% var answers = question.get("answers");
 	   for (var i = 0; i < answers.length; i++) { %>
-	       <li><input id="answer-<%= i %>" class="answers" type="radio" value="<%= i %>"><%= answers[i] %></input></li>
+	       <li><input id="answer-<%= i %>" class="answers" type="radio" name="ans" value="<%= i %>"><%= answers[i] %></input></li>
 	<% }; %>
 	</ul>
 	<button id="answer">Submit Answer</button>

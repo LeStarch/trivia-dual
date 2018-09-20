@@ -8,7 +8,7 @@ define([],
          * Configuration object
          */
         return {
-        	jsons:["js/questions/sunday-school-1.json","js/questions/sunday-school-2.json","js/questions/sunday-school-3.json"]
+        	jsons:["js/questions/gilbert.json", "js/questions/michael.json", "js/questions/michael2.json", "js/questions/michael3.json"]
         };
     }
 );

@@ -20,7 +20,7 @@ require(["lib/domReady!",
          "js/view/ResponseView", 
          "js/view/WinnerView",
          "js/config/Configuration",
-         "lib/text!templates.html"],
+         "lib/text!templates-chinese.html"],
 	function(doc,$,itl,Question,QuestionView,Questions,ListView,Control,Players,AddPlayer,PlayerControl,ResponseView,WinnerView,Configuration,html)
 	{
         $("body").append(html);

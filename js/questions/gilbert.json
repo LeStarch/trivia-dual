@@ -1,0 +1,183 @@
+[
+  {
+    "id": "89678aab-13be-4396-af0f-08fa2ee88179",
+    "title": "\u4f60\u597d",
+    "category": "Intro",
+    "question": "What is the English word for \u4f60\u597d?",
+    "answers": [
+      "Nice to meet you",
+      "Eat",
+      "Rest",
+      "'None of the Above'"
+    ],
+    "answer": "Hello",
+    "points": 100
+  },
+  {
+    "id": "f5304df2-6fe7-42d2-b2b7-f83ac0df2a1b",
+    "title": "Om Nom Nom Nom Nom",
+    "category": "Intro",
+    "question": "\u54ea\u4e00\u500b\u662f\u6211\u5011\u5728\u81ea\u6211\u4ecb\u7d39\u7684\u6642\u9593\u554f\u7684\u554f\u984c?",
+    "answers": [
+      "What is you favorite word to use?",
+      "I live with ____ people.",
+      "I have _____ friends.",
+      "Do you have a boy/girlfriend?",
+      "'None of the Above'"
+    ],
+    "answer": "I live with ____ people.",
+    "points": 400
+  },
+  {
+    "id": "24ca302b-37a3-4017-92e8-5a1ab459e5cc",
+    "title": "Tick Tock Goes the Clock",
+    "category": "Intro",
+    "question": "\"\u6211\u4f4f\u5728____\" \u600e\u9ebc\u7ffb?",
+    "answers": [
+      "Where is _____ today?",
+      "My favorite animal is _____.",
+      "I live with _____ people.",
+      "I hope that I will have a nice _____.",
+      "I live in _____."
+    ],
+    "answer": "I live in _____.",
+    "points": 500
+  },
+  {
+    "id": "37660905-fba6-4a4f-9b9a-e738a0ecbe1b",
+    "title": "Stop, Look, and Listen",
+    "category": "Work/Occupations",
+    "question": "Police officer \u662f\u4ec0\u9ebc?",
+    "answers": [
+      "\u8b77\u58eb",
+      "\u91ab\u751f",
+      "\u5eda\u5e2b",
+      "\u8b66\u5bdf",
+      "\u7267\u5e2b"
+    ],
+    "answer": "\u8b66\u5bdf",
+    "points": 100
+  },
+  {
+    "id": "d6222f4f-8045-4064-9701-585cbaf264b5",
+    "title": "What?",
+    "category": "Work/Occupations",
+    "question": "Scientist \u662f\u4ec0\u9ebc?",
+    "answers": [
+      "\u91ab\u751f",
+      "\u79d1\u5b78\u5bb6",
+      "\u96fb\u5b50\u5de5",
+      "\u7267\u5e2b",
+      "\u4ee5\u4e0a\u90fd\u4e0d\u5c0d"
+    ],
+    "answer": "\u79d1\u5b78\u5bb6",
+    "points": 200
+  },
+  {
+    "id": "1c32f1fa-b373-4c15-8950-b94f775d1204",
+    "title": "\u5609\u5fb7",
+    "category": "Work/Occupations",
+    "question": "\u8b66\u5bdf,\u6d88\u9632\u968a\u54e1,\u79d1\u5b78\u5bb6,\u8b77\u58eb,\u8fb2\u6c11,\u548c\u7267\u5e2b\u7ffb\u8b6f\u6210\u82f1\u6587\u53eb\u4ec0\u9ebc?",
+    "answers": [
+      "Fireman; Scientist; Nurse; Farmer; Police; Preacher",
+      "Police; Fireman; Scientist; Nurse; Farmer; Preacher",
+      "Scientist; Police; Nurse; Fireman; Farmer; Preacher",
+      "Preacher; Farmer; Nurse; Scientist; Fireman; Police",
+      "Farmer; Fireman; Police; Scientist; Preacher; Nurse"
+    ],
+    "answer": "Police; Fireman; Scientist; Nurse; Farmer; Preacher",
+    "points": 300
+  },
+  {
+    "id": "930640a4-26da-40bd-992d-f7c7cdcd592a",
+    "title": "\u66f8\u4e9e",
+    "category": "Work/Occupations",
+    "question": "\u66f8\u4e9e\u662f\u4ec0\u9ebc?",
+    "answers": [
+      "A Nurse",
+      "A Doctor",
+      "A Pastor",
+      "A Waitress",
+      "A Housekeeper"
+    ],
+    "answer": "A Nurse",
+    "points": 400
+  },
+  {
+    "id": "36ea9c3c-7d35-43b0-bcb3-1ba72cc7a5e6",
+    "title": "Salvation is on the way!!",
+    "category": "Work/Occupations",
+    "question": "\u7267\u5e2b\u7684\u82f1\u6587\u7ffb\u8b6f\u662f\u4ec0\u9ebc?",
+    "answers": [
+      "A Businessman",
+      "A Nurse",
+      "A Friend",
+      "A Church",
+      "A Preacher"
+    ],
+    "answer": "A Preacher",
+    "points": 500
+  },
+  {
+    "id": "732234fe-dab1-4593-9b8c-80351ebc975e",
+    "title": "Help!!",
+    "category": "Work/Occupations",
+    "question": "A person who helps when there is a fire.",
+    "answers": [
+      "\u8b66\u5bdf",
+      "\u91ab\u751f",
+      "\u6d88\u9632\u968a\u4eba",
+      "\u7267\u5e2b",
+      "\u516c\u6c11",
+      "\u77f3\u5927\u885b"
+    ],
+    "answer": "\u6d88\u9632\u968a\u4eba",
+    "points": 600
+  },
+  {
+    "id": "79103eb0-0aad-4fd7-9ced-c073aa6a360f",
+    "title": "No. 1",
+    "category": "Genesis 1",
+    "question": "First day?",
+    "answers": [
+      "Night; Darkness; and More Darkness",
+      "Sun; Moon; Man",
+      "Sun; Moon; Sea",
+      "Light; Night; Day",
+      "Light; Darkness; Day"
+    ],
+    "answer": "Light; Night; Day",
+    "points": 100
+  },
+  {
+    "id": "f3f4d5b4-002b-4b94-a6ef-f0375d1a5db9",
+    "title": "The Author of it All",
+    "category": "Genesis 1",
+    "question": "Who creates (in Genesis 1)?",
+    "answers": [
+      "Teachers",
+      "Josephine",
+      "Michael",
+      "A Pastor",
+      "A Doctor",
+      "God"
+    ],
+    "answer": "God",
+    "points": 200
+  },
+  {
+    "id": "f83026b8-86b5-4a43-87bb-e2a4cd77d8df",
+    "title": "No. 2",
+    "category": "Genesis 1",
+    "question": "Second Day?",
+    "answers": [
+      "Rest",
+      "Light; Night; Day",
+      "Land and Sea",
+      "Land, Fishes and Plants",
+      "Moon; Sun; Fish"
+    ],
+    "answer": "Land and Sea",
+    "points": 300
+  }
+]

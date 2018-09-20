@@ -38,6 +38,7 @@ define(["jquery",
         			var model = _self.current;
         			var ans = $(_self.qview.$el).find("input.answers:checked").val();
         			var right = false;
+                                var tmpt = model.get("answers");
         			if (+ans == model.get("answer")) {
         				right = true;
         				model.set("answered",true);
